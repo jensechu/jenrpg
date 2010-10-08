@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'vanilla';
+    src: url('./media/Vanilla-webfont.ttf');
+    }
+
+@font-face {
+    font-family: 'shroom';
+    src: url('./media/shrooms.ttf');
+    }
+
+h1 {
+    font-family: vanilla;
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 10px;
+}
+
+h3 {
+    font-family: vanilla;
+    padding: 0px;
+}
+
+body {
+    margin-left: auto; margin-right: auto;
+    background-color: #9FD955;
+}
+
+#main {
+    margin-left: auto; margin-right: auto;
+    width: 680px;
+    background-color: #639423;
+    padding: 20px;
+ }
+
+#header {
+    background-color: #9FD955;
+    padding-bottom: 10px;
+}
+
+#nav {
+    background-color: #639423;
+}
+
+#nav a {
+    font-family: vanilla;
+    text-decoration: none;
+    color: #594836;
+    font-size: 25px;
+    -webkit-text-stroke: 1px black;
+}
+
+#nav li {
+    display: inline;
+    margin-right: 25px; maring-left: 25px;
+}
+
+#nav ul {
+    text-align: center;
+}
+
+#content {
+    margin-left: auto; margin-right: auto;
+    background-color: #F2DC79;
+    height: 300px;
+    width: 550px;
+    border: 2px solid #DE9750;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 0px 30px 30px 30px;
+}
+
+#footer {
+    background-color: #639423;
+    height: 50px;
+}
+
+#footer p {
+    font-family: shroom;
+    font-size: 100px;
+    color: #9FD955;
+    line-height: 0px;
+    margin: 60px 0px 0px 0px;
+ 
+}
+
+#nav .selected {
+    -webkit-text-stroke: 2px black;
+}
+
+p {
+
+}
