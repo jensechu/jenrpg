@@ -51,11 +51,12 @@ body {
 
 #nav li {
     display: inline;
-    margin-right: 25px; maring-left: 25px;
+    margin-right: 15px; margin-left: 15px;
 }
 
 #nav ul {
     text-align: center;
+    margin-right: 30px;
 }
 
 #content {
