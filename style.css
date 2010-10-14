@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'vanilla';
+    src: url('./media/Vanilla-webfont.ttf');
+    }
+
+body,html {
+  margin: 0;
+  padding: 0;
+  background-color: #9FD955;
+}
+
+
+html { height: 100%; }
+
+#header {
+  height: 0px;
+  width: 100%; }
+
+#treetop {
+  background-color: #639423;
+  background: url('./media/treetop.png') no-repeat top left;
+  height: 615px;
+  margin: 0 auto;
+  position: relative;
+  width: 850px;
+  z-index: 2; }
+  
+#trunkwrap {
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+
+#treetrunk {
+  background-color: #594836;
+  height: 100%;
+  margin: 200px auto 0 470px;
+  width: 300px;
+  z-index: 1; }
+
+#content {
+    margin-left: 122px; margin-right: auto;
+    background-color: #F2DC79;
+    height: 290px;
+    width: 500px;
+    border: 2px solid #DE9750;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 0px 30px 30px 30px;
+}
+
+#nav {
+    margin-right: 45px;
+    padding-top: 100px;
+}
+
+#nav a {
+    font-family: vanilla;
+    text-decoration: none;
+    color: #594836;
+    font-size: 25px;
+    -webkit-text-stroke: 1px black;
+}
+
+#nav li {
+    display: inline;
+    margin-right: 15px; margin-left: 15px;
+}
+
+#nav ul {
+    text-align: center;
+    margin-right: 30px;
+}
+
+
+
+h3 {
+    font-family: vanilla;
+    padding: 0px;
+}
