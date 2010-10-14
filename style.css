@@ -37,7 +37,7 @@ html { height: 100%; }
 #treetrunk {
   background-color: #594836;
   height: 100%;
-  margin: 200px auto 0 470px;
+  margin: 200px auto 0 auto;
   width: 300px;
   z-index: 1; }
 
