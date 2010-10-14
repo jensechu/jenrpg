@@ -22,7 +22,7 @@ html { height: 100%; }
   height: 615px;
   margin: 0 auto;
   position: relative;
-  width: 850px;
+  width: 808px;
   z-index: 2; }
   
 #trunkwrap {
@@ -53,7 +53,7 @@ html { height: 100%; }
 }
 
 #nav {
-    margin-right: 45px;
+    margin-right: 5px;
     padding-top: 100px;
 }
 
