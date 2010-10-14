@@ -22,14 +22,15 @@ h3 {
 
 body {
     margin-left: auto; margin-right: auto;
-     background-color: #9FD955;
+    background-color: #9FD955;
+    background: #9FD955 url('./media/trunk.png') no-repeat bottom center;
 }
 
 #main {
     margin-left: auto; margin-right: auto;
     width: 820px;
     background: url('./media/treetop.png') no-repeat top left;
-    height: 590px;
+    height: 640px;
     padding-top: 95px;
 }
 
@@ -72,7 +73,6 @@ body {
 }
 
 #footer {
- 
     height: 50px;
 }
 
