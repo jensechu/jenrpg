@@ -11,9 +11,9 @@
 h1 {
     font-family: vanilla;
     text-align: center;
-    font-size: 60px;
+    font-size: 25px;
     letter-spacing: 10px;
-}
+  }
 
 h3 {
     font-family: vanilla;
@@ -22,23 +22,24 @@ h3 {
 
 body {
     margin-left: auto; margin-right: auto;
-    background-color: #9FD955;
+     background-color: #9FD955;
 }
 
 #main {
     margin-left: auto; margin-right: auto;
-    width: 680px;
-    background-color: #639423;
-    padding: 20px;
- }
+    width: 820px;
+    background: url('./media/treetop.png') no-repeat top left;
+    height: 590px;
+    padding-top: 95px;
+}
 
 #header {
-    background-color: #9FD955;
     padding-bottom: 10px;
 }
 
 #nav {
-    background-color: #639423;
+    margin-bottom: 20px;
+  
 }
 
 #nav a {
@@ -62,8 +63,8 @@ body {
 #content {
     margin-left: auto; margin-right: auto;
     background-color: #F2DC79;
-    height: 300px;
-    width: 550px;
+    height: 290px;
+    width: 500px;
     border: 2px solid #DE9750;
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -71,7 +72,7 @@ body {
 }
 
 #footer {
-    background-color: #639423;
+ 
     height: 50px;
 }
 
