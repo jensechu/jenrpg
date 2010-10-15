@@ -83,3 +83,8 @@ h3 {
     font-family: vanilla;
     padding: 0px;
 }
+
+#nav .selected {
+    -webkit-text-stroke: 2px black;
+    -moz-text-stroke: 2px black;
+}
